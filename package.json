@@ -1,0 +1,23 @@
+{
+  "name": "template-module",
+  "version": "1.0.0",
+  "description": "first build gulp",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp",
+    "prod": "gulp --prod"
+  },
+  "author": "Yury Kravchenko",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "gulp": "^4.0.2",
+    "gulp-htmlmin": "^5.0.1",
+    "pug": "^3.0.2",
+    "yargs": "^17.5.1"
+  },
+  "dependencies": {
+    "ci": "^2.2.0",
+    "module_name": "^1.0.0"
+  }
+}

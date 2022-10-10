@@ -1,0 +1,10 @@
+{
+   "path": {
+      "src": {
+         "srcPath": "./source"
+      },
+      "dist": {
+         "distPath": "./dist"
+      }
+   }
+}
