@@ -1,5 +1,3 @@
-import { isDev } from './source/modules/isDev';
-
 const gulp = require('gulp');
 const argv = require('yargs').argv;
 const browserSync = require('browser-sync').create();
@@ -8,6 +6,9 @@ const path = projectConfig.path;
 const htmlmin = require('gulp-htmlmin');
 
 
+const isDev = function() {
+   return !argv.prod;
+}
 
 const isProd = function() {
    return !!argv.prod;
